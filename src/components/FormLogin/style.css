@@ -6,13 +6,15 @@ body{
     align-items: center;
     justify-items: center;
     min-height: 100vh;
+    max-width: 100vw;
+    width: 100vw;
     background-image: linear-gradient(106.89deg, rgba(216, 49, 92, 0.9) 0.79%, rgba(61, 146, 203, 0.9) 99%, rgba(10, 35, 99, 0.9)), url('./BACKGROUND.jpg');
 }
 
 .form__login{
-    max-width: 400px;
-    min-width: 300px;
-    padding: 5vh;
+    max-width: 300px;
+    min-width: 290px;
+    padding: 15px;
     border: 1px solid white;
     border-radius: 14px;
 }
@@ -36,6 +38,36 @@ label{
 
 .title{
     text-align: left;
-    padding: 0 0 6% 6%;
+    padding: 0 0 5% 5%;
     color: white;
+}
+
+.introduction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 42px;
+    padding: 0 3% 3% 0;
+    color: white;
+}
+
+.title__login{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+
+@media only screen and (min-width: 700px) {
+    
+    .form__login{
+        max-width: 500px;
+        min-width: 420px;
+        padding: 50px;
+        border: 1px solid white;
+        border-radius: 14px;
+    }
 }

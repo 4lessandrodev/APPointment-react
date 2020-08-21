@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faClock } from '@fortawesome/free-solid-svg-icons';
 import './style.css';
 
 
@@ -10,7 +12,13 @@ export default class Form extends Component{
     
     render() {
         return (
-            
+            <>
+                <div className="introduction">
+                    <span className="icon">
+                        <FontAwesomeIcon icon={faClock} />
+                    </span>
+                    <h2 className="title__login">Valorizamos o seu <strong>tempo</strong></h2>
+                </div>
             <div className="form__login">
                 <h4 className="title">Login</h4>
                 <fieldset>
@@ -29,7 +37,7 @@ export default class Form extends Component{
                     <small><a href="https://google.com">Cadastrar</a></small>
                 </fieldset>
             </div>
-            
+            </>
         )
     };
         

@@ -1,8 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(106.89deg, rgba(216, 49, 92, 0.9) 0.79%, rgba(61, 146, 203, 0.9) 99%, rgba(10, 35, 99, 0.9)), url('./BACKGROUND.jpg');
+}
+
 .form__login{
     max-width: 400px;
     min-width: 300px;
     padding: 5vh;
-    border: 1px solid goldenrod;
+    border: 1px solid white;
     border-radius: 14px;
 }
 
@@ -11,4 +22,20 @@
     background-color: var(--cerise);
     color: white;
     margin-bottom: 5%;
+}
+
+a{
+    color:white
+}
+
+label{
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.title{
+    text-align: left;
+    padding: 0 0 6% 6%;
+    color: white;
 }

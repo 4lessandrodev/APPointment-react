@@ -1,0 +1,14 @@
+.form__login{
+    max-width: 400px;
+    min-width: 300px;
+    padding: 5vh;
+    border: 1px solid goldenrod;
+    border-radius: 14px;
+}
+
+.btn-login{
+    min-width: 100%;
+    background-color: var(--cerise);
+    color: white;
+    margin-bottom: 5%;
+}
